@@ -1,0 +1,64 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #fcf9f7;
+}
+
+.calculator {
+  text-align: center;
+  width: 300px;
+  height: 360px;
+  border-radius: 10px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #969493;
+  padding: 5px;
+}
+
+.buttons {
+  width: 275px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.btn {
+  float: left;
+  margin: 2px;
+  width: 64.75px;
+  color: #050505;
+  background: rgb(238, 227, 203);
+  cursor: pointer;
+  height: 50px;
+  border: none;
+}
+
+.output {
+  margin-top: 10px;
+  text-align: right;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  height: 50px;
+  width: 275px;
+  background-color: #0c010157;
+  color: #fff;
+  margin-left: 10px;
+}
+.clrbtn {
+  width: 275px;
+  text-align: center;
+  margin: 10px auto;
+  color: #050505;
+  background: rgba(241, 95, 95, 0.795);
+  cursor: pointer;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+}
+.op {
+  background: rgba(158, 240, 36, 0.863);
+}
